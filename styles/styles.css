@@ -1,0 +1,190 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap');
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px;
+}
+
+section {
+    padding: 25px;
+}
+
+div {
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*grijs #899CA0 en donkergroen #1C2B32*/
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    max-width: 1000px;
+}
+h1 {
+    font-size: 60px;
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+
+
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    position: relative;
+    height: 500px;
+    max-width: 1000px;
+    background-size: cover;
+
+
+}
+
+.header {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#check {
+    margin-left: -10px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+
+}
+
+#domain {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 15px;
+    opacity: 0.7;
+    margin-right: 5px
+
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+#test1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#test1 > p:before {
+    content: url("../assets/icons/quote-left.png");
+    margin-right: 10px;
+}
+.profile > p {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.profile img {
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.profile {
+    font-style: italic;
+    width: 800px;
+    margin-top: 0;
+
+}
+#test2 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+#test2 > p:before {
+    content: url("../assets/icons/quote-left.png");
+    margin-right: 10px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+section > img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+a:link {
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 20px
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+details > p {
+    background-color: #899CA0;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+
+
+}
+details > summary {
+    padding-bottom: 20px;
+}
+details {
+    cursor: pointer;
+}
+
+/*///////////// 3.5 Footer /////////////*/
